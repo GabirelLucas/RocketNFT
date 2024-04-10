@@ -1,0 +1,445 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.homeContainer {
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 55px 40px 0px 40px;
+}
+
+.homeContainer header {
+    display: flex;
+    align-items: center;
+    gap: 224px;   
+}
+
+.homeContainer nav {
+    display: flex;
+    gap: 60px;
+}
+
+.homeContainer nav a {
+    text-decoration: none;
+    color:var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.homeContainer button {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    gap: 15px;
+    padding: 14px;
+
+    color: var(--black-text);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descriptions {
+    display: flex;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.textDescription {
+    display: flex;
+}
+
+.textDescription p {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.photosArtists {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}    
+
+#artista1 {
+    position: relative;
+    z-index: 4;
+}
+
+#artista2 {
+    position: relative;
+    z-index: 3;
+    right: 72px;
+}
+
+#artista3 {
+    position: relative;
+    z-index: 2;
+    right: 138px;
+}
+
+#artista4 {
+    position: relative;
+    z-index: 1;
+    right: 208px;
+}
+
+.photosArtists p {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+}
+
+.photosArtists strong {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.slogan {
+    margin: 0px 40px;
+}
+
+.slogan h1 {
+    color: var(--text-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.slogan span {
+    color: var(--color-logo);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.imagens {
+    margin-top: 60px;
+}
+
+.content {
+    background-color: var(--body-background);
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 130px 70px;
+    border-right: 1px solid var(--subtitle-color);
+    border-bottom: 1px solid var(--subtitle-color);
+}
+
+.numbers p {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers small {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contentMain1 {
+    display: flex;
+    flex-direction: column;
+    gap: 22px
+}
+
+.textMain {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 126px;
+    padding: 80px 70px;
+}
+
+.textMain div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.textMain small {
+    color: var(--color-logo);
+}
+
+.textMain span {
+    text-decoration: underline;
+}
+
+.contentMain1 img {
+    width: 1081px;
+}
+
+.populares {
+    background-color: var(--body-background);
+    padding: 150px 90px;
+}
+
+.populares h1 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.populares span {
+    color: var(--color-logo);
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.names p {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.names span {
+    color: var(--color-logo);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fileiras {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.fileira1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.fileira2 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+#verticalLine {
+    height: 675;
+    width: 1px;
+    background-color: var(--subtitle-color);
+}
+
+.astronauts {
+    width: 350px;
+}
+
+.bests {
+    background-color: var(--body-background);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bests h1 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.bests span {
+    color: var(--color-logo);
+}
+
+.best {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 25px 30px;
+    background-color: var(--card-color);
+}
+
+.bestsCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.infoForBest {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#bestOfAll {
+    background-color: var(--color-logo);
+    color: var(--text-color);
+}
+
+.bests a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer {
+    background-color: var(--card-color);
+}
+
+.topFooter {
+    display: flex;
+    padding: 80px 88px;
+    justify-content: space-between;
+}
+
+.topFooter button {
+    background-color: var(--color-logo);
+    padding: 26px;
+    border: none;
+}
+
+.middleFooter {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--subtitle-color);
+    border-bottom: 1px solid  var(--subtitle-color);
+}
+
+.dataUser {
+    padding: 70px 84px;
+    border-right: 1px solid  var(--subtitle-color);
+}
+
+.dataUser h2 {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.dataUser span {
+    color: var(--color-logo);
+}
+
+.dataUser form {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.dataUser input {
+    background-color: var(--body-background);
+    border: none;
+    height: 66px;
+    padding: 20px;
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dataUser button {
+    padding: 20px 25px;
+    color: var(--black-text);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menuFooter {
+    display: flex;
+    gap: 130px;
+    padding: 74px 120px;
+}
+
+.menuFooter strong {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menuFooter p {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 84px;
+}
+
+.socialLinks p {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.socialLinks img {
+     margin-left: 50px;
+}
